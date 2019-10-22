@@ -1,8 +1,8 @@
 FROM java:openjdk-8-jre
 MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
-ENV VERSION 0.27.2
-ENV ARCHIVE https://s3.amazonaws.com/name.abuchen.portfolio/${VERSION}/PortfolioPerformance-${VERSION}-linux.gtk.x86_64.tar.gz
+ENV VERSION 0.42.1
+ENV ARCHIVE https://github.com/buchen/portfolio/releases/download/${VERSION}/PortfolioPerformance-${VERSION}-linux.gtk.x86_64.tar.gz
 
 ENV DISPLAY=:0
 
