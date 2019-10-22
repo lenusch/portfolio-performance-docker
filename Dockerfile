@@ -1,4 +1,5 @@
-FROM openjdk:12
+FROM openjdk:8u212-jre-stretch
+
 MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
 ENV VERSION 0.42.1
