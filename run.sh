@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IMAGE=sunside/portfolio-performance
+IMAGE=lenusch/portfolio-performance
 
 docker run \
 	--rm -it \
