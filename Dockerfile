@@ -8,7 +8,7 @@ ENV ARCHIVE https://github.com/buchen/portfolio/releases/download/${VERSION}/Por
 ENV DISPLAY=:0
 
 RUN apt-get update \
-    && apt-get -y --no-install-recommends install libgtk3.0-0 libcanberra-gtk-module libwebkitgtk-3.0.0 \
+    && apt-get -y --no-install-recommends install libgtk2.0-0 libcanberra-gtk-module libwebkitgtk-1.0.0 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -ms /bin/bash portfolio && mkdir /data && chown portfolio /opt /data
