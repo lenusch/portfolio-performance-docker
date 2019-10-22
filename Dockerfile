@@ -1,4 +1,4 @@
-FROM openjdk-12-jre
+FROM openjdk:12
 MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
 ENV VERSION 0.42.1
