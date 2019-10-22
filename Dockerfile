@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre
+FROM java:openjdk-9-jre
 MAINTAINER Markus Mayer <widemeadows@gmail.com>
 
 ENV VERSION 0.42.1
